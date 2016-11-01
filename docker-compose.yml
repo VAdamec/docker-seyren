@@ -1,5 +1,5 @@
 mongodb:
-  image: dockerfile/mongodb
+  image: mongo:3.0.1
   volumes:
      - ./mongodb:/data/db
   command: "mongod --smallfiles"
